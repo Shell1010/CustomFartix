@@ -7,6 +7,8 @@ A custom Artix Game Launcher asar that allows you to replace SWFs with your own.
 https://github.com/user-attachments/assets/f7ff889e-6b88-4661-b993-2fea8f5b33f3
 
 ## Setup
+Ignore the 3000 build scripts for some reason AE packaged that with their asar.
+
 Find the Artix Game Launcher path, it should be somewhere in %AppData% for Windows users. For Linux users it's in `~/.config`. Replace the existing `app.asar` with this. If you want, rename the old asar as something like `backup.asar`.
 
 For Windows users, this will create a config folder in `C:\Users\<YourUsername>\AppData\Roaming\CustomFartix` here you create a `rules.json` file where you input what URLs to replace, and point it to a local file on your machine to replace it with. For example:
