@@ -1,5 +1,10 @@
+
+
 # Custom SWF Build thingy
 A custom Artix Game Launcher asar that allows you to replace SWFs with your own. Has dev tools enabled so you can access the networking tab (Ctrl + I) to view Asset URLs pulled by the client. 
+
+
+https://github.com/user-attachments/assets/f7ff889e-6b88-4661-b993-2fea8f5b33f3
 
 ## Setup
 Find the Artix Game Launcher path, it should be somewhere in %AppData% for Windows users. For Linux users it's in `~/.config`. Replace the existing `app.asar` with this. If you want, rename the old asar as something like `backup.asar`.
@@ -26,3 +31,4 @@ Thinking of a way to get this working similar to Usrbg eventually, so that every
 
 ## Disclaimer
 All this does is intercept request and does an in-place replacement of the response content, currently client sided so only you can see your own changes. All I added was this extra code, the rest is AE's slop so you can see the state of their code fr.
+
