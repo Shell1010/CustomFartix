@@ -168,7 +168,7 @@ process.setMaxListeners(100);
 
 var gameWindows =
 {
-    aqw: { url:"https://game.aq.com/game/gamefiles/Loader3.swf?ver=a", size:"top=100,left=15,width=960,height=580" },
+    aqw: { url:"https://game.aq.com/game/gamefiles/Loader4.swf?ver=b", size:"top=100,left=15,width=960,height=580" },
 	aqwcreate: { url:"https://www.aq.com/landing/", size:"top=160,left=30,width=960,height=580" },
 	aqwtest: { url:"https://game.aq.com/game/gamefiles/Loader_Spider.swf?ver=2003", size:"top=100,left=15,width=960,height=580" },
     ed: { url:"https://epicduelstage.artix.com/omegaLoader14.swf", size:"top=190,left=45,width=1016,height=700" },

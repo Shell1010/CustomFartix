@@ -5,7 +5,7 @@ var aq3dwin;
 
 var gameWindows =
 {
-    aqw: { url:"https://www.aq.com/game/gamefiles/Loader.swf?ver=7", size:"top=100,left=15,width=960,height=580" },
+    aqw: { url:"https://game.aq.com/game/gamefiles/Loader4.swf?ver=b", size:"top=100,left=15,width=960,height=580" },
     aqwcreate: { url:"https://www.aq.com/landing/", size:"top=160,left=30,width=960,height=580" },
     ed: { url:"https://epicduelstage.artix.com/omegaLoader14.swf", size:"top=190,left=45,width=1016,height=700" },
     mq: { url:"https://play.mechquest.com/game/gamefiles/MQLoader.swf", size:"top=120,left=60,width=1016,height=700" },
